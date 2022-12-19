@@ -11,16 +11,17 @@ return  (
 <Navbar title = {5} />
 </div>
 )
-//React.createElement(
-// 'div', {className:"app" },
-// React.createElement('h1', null, "Hello From React")\
+React.createElement(
+'div', {className:"app" },
+React.createElement('h1', null, "Hello From React"),
+<div className="App">
+<h1>Hello from React</h1>
+<h2>Goodbye
+</h2>
+ </div>
 
-// )
-//       <div className="App">
-//      <h1>Hello from React</h1>
-//      <h2>Goodbye
-//      </h2>
-//       </div>
+)
+     
   
   }
 }
